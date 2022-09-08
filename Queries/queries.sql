@@ -148,3 +148,43 @@ FROM current_emp AS ce
 		ON (ce.emp_no = de.emp_no)
 	INNER JOIN departments AS d
 		ON (de.dept_no = d.dept_no);
+
+-- Isolated sales department for easier join
+SELECT *
+INTO dept_sales
+FROM departments
+WHERE dept_name = 'Sales';
+
+-- List of sales department retirees
+SELECT
+	ce.emp_no,
+	ce.first_name,
+	ce.last_name,
+	ds.dept_name	
+-- INTO sales_info
+FROM current_emp AS ce
+	INNER JOIN dept_emp AS de
+		ON (ce.emp_no = de.emp_no)
+	INNER JOIN dept_sales AS ds
+		ON (de.dept_no = ds.dept_no);
+		
+-- Isolated sales/development departments for easier join
+SELECT *
+INTO dev_sales
+FROM departments
+WHERE dept_name = 'Sales' OR dept_name = 'Development';
+
+-- List of sales department retirees
+SELECT
+	ce.emp_no,
+	ce.first_name,
+	ce.last_name,
+	ds.dept_name	
+INTO dev_sales_info
+FROM current_emp AS ce
+	INNER JOIN dept_emp AS de
+		ON (ce.emp_no = de.emp_no)
+	INNER JOIN dev_sales AS ds
+		ON (de.dept_no = ds.dept_no);
+
+
