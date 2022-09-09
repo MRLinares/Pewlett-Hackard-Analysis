@@ -18,10 +18,10 @@ Retrieved the number of employees by their most recent job title who are about t
 Created a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-• Total of 72,458 employees retiring, deconstructed by title below:
+• Total of 72,458 employees retiring, deconstructed by title below:\
 ![retiring_titles](https://user-images.githubusercontent.com/108758105/189444696-21ae74cb-92db-47f5-bc46-8dc6e4860219.png)
 
-• Total of 1,549 employees eligible for mentorship as per Pewlett-Hackard standards, deconstructed by title below:
+• Total of 1,549 employees eligible for mentorship as per Pewlett-Hackard standards, deconstructed by title below:\
 ![mentorship_titles](https://user-images.githubusercontent.com/108758105/189445068-72e9fb47-10e7-4e28-8f6b-99fadf7e6ca5.png)
 
 
