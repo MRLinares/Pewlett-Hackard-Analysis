@@ -18,6 +18,10 @@ Retrieved the number of employees by their most recent job title who are about t
 Created a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+* In order to create a table depicting accurate totals, I had to account for duplicate employee identification numbers due to promotions (below), so I had to employ the "DISTINCT ON" function and order by descending dates to not only retrieve a single title, but also the most recent.\
+![repeating_titles](https://user-images.githubusercontent.com/108758105/189481684-6b6c2cb8-a1ef-4e3e-90ab-2ad8b0a13510.png)
+
+
 * Total of 72,458 employees retiring, deconstructed by title below:\
 ![retiring_titles](https://user-images.githubusercontent.com/108758105/189444696-21ae74cb-92db-47f5-bc46-8dc6e4860219.png)
 
