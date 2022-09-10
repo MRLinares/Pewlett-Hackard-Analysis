@@ -45,7 +45,9 @@ WHERE
 ~~~~
 
 This reveals that there is no one at the organization with a birthdate after the year 1965 leaving the remaining 226,017 employees, and their respective positions, will be ready for retirement in the next 5-10 years.\
+
+>Employees ready for retirement immediately following current eligible employees:\
 ![gray_area](https://user-images.githubusercontent.com/108758105/189485096-a361e6c6-8942-4a07-8635-2254135773c6.png)
 
-While there are more than enough retirement eligible employees to mentor those eligible for mentorship, the greater concern is bringing in new employees to help prepare for the even greater tsunami soon on its way.
+While there are more than enough retirement eligible employees to mentor those eligible for mentorship, the greater concern is bringing in young talent and convincing employees to stay past retirement age to help prepare for the even greater tsunami soon on its way.
 
