@@ -5,10 +5,10 @@
 Provide analysis for Pewlett Hackard in order to prepare for a massive wave of upcoming retirements by identifying the total amount of upcoming retirees by title and identifying the employees who can step into the upcoming vacancies.
 
 
-### Resources:
+#### Resources:
 
->>***Software:*** PostgreSQL, pgAdmin4 6.12, Virtual Studio Code 1.71.0\
->>***Data:*** departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
+>***Software:*** PostgreSQL, pgAdmin4 6.12, Virtual Studio Code 1.71.0, Microsoft Excel\
+>***Data:*** departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
 
 
 ## Results - (Work In Progress...)
