@@ -11,7 +11,7 @@ Provide analysis for Pewlett Hackard in order to prepare for a massive wave of u
 >***Data:*** departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
 
 
-## Results - (Work In Progress...)
+## Results 
 
 Retrieved the number of employees by their most recent job title who are about to retire.
 
